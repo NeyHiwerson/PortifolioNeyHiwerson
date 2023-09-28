@@ -9,82 +9,178 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    
+
     <title>Ney Hiwerson</title>
   </head>
   <body>
     <div class="quadrado"></div>
     <header>
-        <div class="media">
-            <img class="imagem" src="assets/images/Ney.jfif" alt="Foto Ney">
-        </div>
-        <div>
-            <ul class="nav nav-pills justify-content-end">
-                <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="pages/projetos.html">Pojetos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="pages/contato.html">Contato</a>
-                </li>            
-            </ul>
-        </div>
-        <div>
-           <h1>Desenvolvedor FullStack</h1>
-        </div>
+      <div class="media">
+        <img class="imagem" src="assets/images/Ney.jfif" alt="Foto Ney" />
+      </div>
+      <div>
+        <ul class="nav nav-pills justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/projetos.html">Pojetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1>Desenvolvedor FullStack</h1>
+      </div>
     </header>
     <main>
-        <div class="saudacao">
-            <p>Olá, tudo beleza?</p>
-            <h2>Sou Ney Hiwerson</h2>
-            <p>e estou muito feliz por vc estar aqui.</p>
+      <div class="saudacao">
+        <p>Olá, tudo beleza?</p>
+        <h2>Sou Ney Hiwerson</h2>
+        <p>e estou muito feliz por vc estar aqui.</p>
+      </div>
+
+      <div class="sobre-mim">
+        <h2>Sobre mim</h2>
+      </div>
+      <div class="cards-skils">
+        <div class="card-deck">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="assets/images/codigo1-512.png"
+              alt="Imagem de capa do card front-end"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Front-end</h5>
+              <p class="card-text">
+                HTML CSS JavaScript.<br />
+                Criação de interfaces do usuário de um aplicativo ou site,
+                usando linguagens como HTML, CSS e JavaScript para garantir uma
+                experiência agradável para o usuário final.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Bootstrap - JQuary</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/assets/images/codigo2-512.png"
+              alt="Imagem de capa do card back-end"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Back-end</h5>
+              <p class="card-text">
+                Desenvolvimento da lógica e funcionalidades dos servidores e do
+                banco de dados, trabalhando com linguagens como Java, C#, e
+                Node.js. Código
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >API's RestFull - Bancos de Dados - Cloud</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/assets/images/codigo3-512.png"
+              alt="Imagem de capa do card soft-skils"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Soft-skils</h5>
+              <p class="card-text">
+                Habilidades interpessoais e comportamentais aliadas a
+                comunicação acertiva, pensamento crítico e adaptabilidade são
+                algumas das skils que me tornam um profissional que vai entregar
+                o melhor em todos os projetos.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >Trabalho em Equipe - Empatia - Criatividade</small
+                >
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div class="sobre-mim">
-            <h2>Sobre mim</h2>
-
-        </div>
-        <div class="cards-skils">
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/codigo1-512.png" alt="Imagem de capa do card front-end">
-                  <div class="card-body">
-                    <h5 class="card-title">Front-end</h5>
-                    <p class="card-text">HTML CSS JavaScript.<br>  Criação de interfaces do usuário de um aplicativo ou site, usando linguagens como HTML, CSS e JavaScript para garantir uma experiência agradável para o usuário final.</p>
-                    <p class="card-text"><small class="text-muted">Bootstrap - JQuary</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="/assets/images/codigo2-512.png" alt="Imagem de capa do card back-end">
-                  <div class="card-body">
-                    <h5 class="card-title">Back-end</h5>
-                    <p class="card-text"> Desenvolvimento da lógica e funcionalidades dos servidores e do banco de dados, trabalhando com linguagens como Java, C#, e Node.js. Código</p>
-                    <p class="card-text"><small class="text-muted">API's RestFull - Bancos de Dados - Cloud</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="/assets/images/codigo3-512.png" alt="Imagem de capa do card soft-skils">
-                  <div class="card-body">
-                    <h5 class="card-title">Soft-skils</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                  </div>
-                </div>
-              </div>
-
-        </div>
-
-
+      </div>
     </main>
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #000000"
+            href="https://twitter.com/RHiwerson"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
 
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/hiwersonmissiasribeiro/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
 
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/neyhiwerson/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
 
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/NeyHiwerson"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #6d83f2">
+        © 2023 Copyright:
+        <span class="text-white"> Ney Hiwerson</span>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
-
-
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -101,5 +197,6 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
   </body>
 </html>

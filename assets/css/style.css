@@ -16,7 +16,7 @@ body {
     transform: rotate(20deg);
 }
 
-header, main, footer {
+header, main {
     width: 100%;
     max-width: 1500px; /* Limitar a largura máxima */
     margin: 0 auto;
@@ -52,8 +52,8 @@ h1 {
 .cards-skils {
     margin: 0 20px;
 }
-.card-img-top {    
+.card-img-top {
     width: 50%;
     margin: 10% auto;
-    
+
 }
