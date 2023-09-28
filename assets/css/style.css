@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
+    width: 700px; /* Usar 100% para preencher a largura da tela */
+    height: 400px; /* Usar 100vh para preencher a altura da tela */
+    background-color: #6D83F2;
+    border-radius: 30px;
+    margin-top:130px;
+    position: absolute; /* Para que o quadrado fique por trás dos outros elementos */
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: rotate(20deg);
+}
+
+header, main, footer {
+    width: 100%;
+    max-width: 1500px; /* Limitar a largura máxima */
+    margin: 0 auto;
+    /* background-color: lightblue; */
+    position: relative; /* Para que os elementos internos respeitem o posicionamento */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Espaço superior para o título no cabeçalho */
+}
+
+.media {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.imagem {
+    width: 230px;
+    border-radius: 60px;
+}
+
+.saudacao {
+    margin-top: 200px; /* Ajustar conforme necessário */
+    margin-left: 200px; /* Ajustar conforme necessário */
+    color: white;
+}
+.sobre-mim {
+    margin-top: 220px;
+    text-align: center;
+}
+.cards-skils {
+    margin: 0 20px;
+}
+.card-img-top {    
+    width: 50%;
+    margin: 10% auto;
+    
+}
