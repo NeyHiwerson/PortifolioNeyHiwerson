@@ -19,8 +19,7 @@ body {
 header, main {
     width: 100%;
     max-width: 1500px; /* Limitar a largura máxima */
-    margin: 0 auto;
-    /* background-color: lightblue; */
+    margin: 0 auto;/* background-color: lightblue; */
     position: relative; /* Para que os elementos internos respeitem o posicionamento */
 }
 

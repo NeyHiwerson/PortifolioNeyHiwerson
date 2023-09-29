@@ -9,41 +9,170 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <title>Ney Hiwerson</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/styleContato.css" />
+    <title>Contato</title>
   </head>
   <body>
     <div class="quadrado"></div>
     <header>
-        <ul class="nav nav-pills justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projetos.html">Pojetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Contato</a>
-            </li>            
-          </ul>
+      <ul class="nav nav-pills justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projetos.html">Pojetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contato</a>
+        </li>
+      </ul>
     </header>
+    <main>
+      <div class="container-form">
+        <div class="form">
 
+          <h1>Entre em contato</h1>
 
+          <form action="">
+            <label for="assunto">Assunto:</label>
+            <div class="input_div">
+              <input
+                class="input_form"
+                type="text"
+                id="assunto"
+                name="assunto"
+                placeholder="Digite aqui o Assunto"
+                value=""
+                required
+              />
+            </div>
 
+            <label for="name">Nome:</label>
+            <div class="input_div">
+              <input
+                class="input_form"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Digite seu Nome"
+                value=""
+                required
+              />
+            </div>
 
+            <label for="email">Email:</label>
+            <div class="input_div">
+              <input
+                class="input_form"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Digite seu Email"
+                value=""
+                required
+              />
+            </div>
 
+            <label for="telefone">Telefone:</label>
+            <div class="input_div">
+              <input
+                class="input_form"
+                type="text"
+                id="telefone"
+                name="telefone"
+                placeholder="Digite seu Telefone"
+                value=""
+                required
+              />
+            </div>
 
+            <label for="mensagem">Mensagem:</label>
+            <div class="input_div"></div>
+              <textarea
+              class="input_form"
+              type="text"
+              id="mensagem"
+              name="message"
+              rows="8" cols="60"
+              >Digite aqui sua mensagem e em breve entraremos em contato.
+              </textarea>
+              <button  class="send-buttons" name="action" value="create"> enviar </button>
+            </div>
 
+          </form>
+        </div>
+      </div>
+    </main>
 
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #000000"
+            href="https://twitter.com/RHiwerson"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
 
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/hiwersonmissiasribeiro/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
 
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/neyhiwerson/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
 
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/NeyHiwerson"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #6d83f2">
+        © 2023 Copyright:
+        <span class="text-white"> Ney Hiwerson</span>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
-
-
-
-
-
+    <!-- MDB - https://mdbootstrap.com/docs/standard/getting-started/installation/ -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
+    <!-- Bootstrap - https://getbootstrap.com.br/docs/4.1/components/alerts/ -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
